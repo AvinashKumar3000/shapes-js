@@ -54,7 +54,7 @@
             console.log(index)
             var ln = document.getElementsByClassName("count").length;
 
-            if (parseInt(index) <= ln) {
+            if (parseInt(index) <= ln || parseInt(index) <= 0) {
                 // remove the particular element
                 var myobj = document.getElementById(index)
                 myobj.remove();
